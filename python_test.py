@@ -60,12 +60,16 @@ print 'Here comes the end for using while structure to ouput each char'
 print '--------------this is answer for 2-11--------------'
 operator = 0
 while (operator != 1) and (operator != 2):
-    operator = raw_input('Plz choose what the operation first,1 for sum;2 for average:')
+    operator = int(raw_input('Plz choose what the operation first,1 for sum;2 for average:'))
 
-if operator == 1:
-    print 'So, you have choose to sum for the num you will input'
-else:
-    print 'So, you have choose to get average for the num you will input'
+    if operator == 1:
+        print 'So, you have choose to sum for the num you will input'
+    else: 
+        if operator == 2:
+            print 'So, you have choose to get average for the num you will input'
+        else:
+            print 'Invalid command !!.Plz try again !!'
+
 
 print 'Now,Plz input the Num'
 
