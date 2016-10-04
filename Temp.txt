@@ -1,6 +1,0 @@
-在这一部分，使用该文件来测试删除git文件
-1、首先 git add filename
-2、git commit -m 'add a test file for remove it from git repo'
-3、rm filename
-4、git rm filename
-5、git commit 
